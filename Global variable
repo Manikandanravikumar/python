@@ -1,0 +1,40 @@
+Global Variable: A variables declared outside a function
+
+Eg:
+n="Github"
+def gl():
+   print(n)
+gl()
+
+OUTPUT:
+Github
+
+**************************************
+
+Eg:
+l=5
+def n():
+   l = 1
+   l+=2
+   print(l)
+n()
+print(l)
+
+OUTPUT:
+3
+5
+
+****************************************
+
+Eg:
+l=3
+def n():
+   global l
+   l+=2
+   print(l)
+print(l)
+n()
+
+OUTPUT:
+3
+5
